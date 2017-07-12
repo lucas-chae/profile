@@ -1,0 +1,203 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 104%;
+  width: 100%;
+  background-color: black;
+}
+
+#frontPage {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(../image/final_portrait.jpg) no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+
+.no-gutter {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.top-buffer {
+  margin-top: 50px;
+}
+
+.bottom-buffer {
+  margin-bottom: 20px;
+}
+
+.container-pseudoFluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.menu-background {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cl-effect-4 {
+  z-index: 0.6;
+}
+
+.xlarge {
+  font-size: 88px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  letter-spacing: 7px;
+  padding-top: 1px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  z-index: 0, 4;
+}
+
+
+.large {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.medium {
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+  text-align: justify;
+  letter-spacing: 0.1px;
+  line-height: 1.4;
+}
+
+.small-padding {
+  padding-left: 10px;
+}
+
+.xs-padding {
+  padding-left: 9px;
+  padding-top: 9px;
+  padding-right: 9px;
+  padding-bottom:  9px;
+}
+
+.wide {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+#introPage {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.top-bottom-buffer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img.logo {
+  border: solid 5px gray;
+  border-radius: 500px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  background size: cover;
+  z-index: -0.5;
+  opacity: 0;
+  pointer-events: none;
+  height: 110%
+}
+
+.full-image {
+  width: 100%;
+}
+
+.main-content {
+  display: none;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.heightLimit {
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  align-content: center;
+}
+
+.tab-content {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+  text-align: justify;
+  letter-spacing: 0.1px;
+  line-height: 1.4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.unordered-list {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.left {
+    text-align: left;
+}
+
+.tab {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding-bottom: none;
+  text-align: center;
+}
+
+.sandwhich {
+    padding-top:30px;
+}
+.tab-content {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+.carousel-inner>.item>img {
+  margin: 0 auto;
+}
+
+.cl-effect-4 a, .cl-effect-4 a:hover, .cl-effect-4 a:active, .cl-effect-4 a:visited, .cl-effect-4 a:focus .cl-effect-9 a, .cl-effect-9 a:hover, .cl-effect-9 a:active, .cl-effect-9 a:visited, .cl-effect-9 a:focus {
+  color: #FFFFFF;
+  text-decoration: none;
+}

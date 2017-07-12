@@ -1,0 +1,27 @@
+
+section.module.parallax {
+  height: 70%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax huge {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../image/civil_engineering_d.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../image/design_d.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../image/photography_d.jpg");
+}
+
